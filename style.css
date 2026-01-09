@@ -1,3 +1,12 @@
+body {
+  font-family: "Open Sans", sans-serif;
+
+}
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -58,18 +67,38 @@
   align-items: center;
   display: flex;
   border-radius: 20px;
+  margin-bottom: 16px;
+  margin-top: 140px;
 }
 
 .Structured {
-  font-size: 72px;
+  font-size: 50px;
   font-weight: 700;
   text-align: center;
+  color: rgba(255, 255, 255, 1);
+
+
+}
+
+.Structured-in {
+  color: rgba(48, 184, 104, 1);
+}
+
+.hero-para {
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-bottom: 32px;
+
 
 }
 
 .Early-Access-C {
   font-size: 16px;
   color: #30B868;
+
 
 }
 
@@ -90,7 +119,37 @@
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
+}
+
+.button {
+  display: flex;
+  gap: 16px;
+}
+
+.button-in {
+  background-color: #30B868;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+  width: 251px;
+  height: 52px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 6px;
+  border: none;
+
+}
+
+.button-im {
+  width: 198px;
+  height: 52px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  background: transparent;
+  color: rgba(255, 255, 255, 1);
+
+
 }
