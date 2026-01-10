@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -47,8 +48,9 @@ body {
   cursor: pointer;
 
 }
-.nave-betn:hover{
-   background-color: #26553a;
+
+.nave-betn:hover {
+  background-color: #26553a;
   color: #FFFFFF;
   transition: all 0.5s ease-in-out;
 }
@@ -129,12 +131,14 @@ body {
   gap: 16px;
   cursor: pointer;
 }
-.button-in:hover{
+
+.button-in:hover {
   background-color: #26553a;
   color: #FFFFFF;
   transition: all 0.5s ease-in-out;
 }
-.button-im:hover{
+
+.button-im:hover {
   background-color: #26553a;
   color: #FFFFFF;
   transition: all 0.5s ease-in-out;
@@ -219,7 +223,8 @@ body {
   cursor: pointer;
 
 }
-.cad-section:hover{
+
+.cad-section:hover {
   border-radius: 8px;
   box-shadow: 1px 1px 20px 0px rgba(14, 2, 2, 0.34);
   background: rgba(255, 255, 255, 1);
@@ -281,11 +286,12 @@ body {
 
 
 
-#soltion-section img:hover{
-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.146);
-border-radius: 20px;
-cursor: pointer;
+#soltion-section img:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.146);
+  border-radius: 20px;
+  cursor: pointer;
 }
+
 #soltion-section {
   display: flex;
   margin-top: 120px;
@@ -300,30 +306,34 @@ cursor: pointer;
   color: #469165;
 
 }
-.soltion-container h2{
+
+.soltion-container h2 {
   margin-top: 16px;
   font-style: 48px;
   font-weight: bold;
   color: #001931;
 
 }
-.soltion-container p{
+
+.soltion-container p {
   margin-top: 16px;
   font-style: 16px;
-  font-weight:400 ;
+  font-weight: 400;
   color: #627382;
 
 }
+
 .soltion-list {
-  margin-top:40px ;
+  margin-top: 40px;
   gap: 20px;
 
 }
-.soltion-list-li{
+
+.soltion-list-li {
   list-style: none;
   font-style: 16px;
   font-weight: 500;
-  color:#001931 ;
+  color: #001931;
   align-items: center;
   line-height: 1.5;
   margin-bottom: 16px;
@@ -331,50 +341,58 @@ cursor: pointer;
 
 
 }
+
 .soltion-list-li img {
   width: 20px;
   height: 20px;
 
 }
-#read-section{
+
+#read-section {
   padding: 120px 120px 120px 120px;
 }
-.reads-section{
-  padding: 80px 40px 80px 40px ;
-  background-color: #F7F6F2 ;
+
+.reads-section {
+  padding: 80px 40px 80px 40px;
+  background-color: #F7F6F2;
   align-items: center;
   text-align: center;
   justify-content: center;
   border-radius: 8px;
 }
-.h-p-section h1{
+
+.h-p-section h1 {
   font-size: 40px;
   font-weight: bold;
   color: #001931;
 }
-.h-p-section p{
+
+.h-p-section p {
   margin-top: 16px;
   font-size: 16px;
   font-weight: 400;
   color: #627382;
 }
-.button-bttom{
- background-color: #469165;
- border: none;
- padding: 16px 12px;
- border-radius: 8px;
- margin-top: 24px;
- color: #FFFFFF;
- font-size: 16px;
- font-weight: 600;
- cursor: pointer;
+
+.button-bttom {
+  background-color: #469165;
+  border: none;
+  padding: 16px 12px;
+  border-radius: 8px;
+  margin-top: 24px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
 }
-.button-bttom:hover{
+
+.button-bttom:hover {
   background-color: #26553a;
   color: #FFFFFF;
   transition: all 0.5s ease-in-out;
 }
-.button-bttom-p{
+
+.button-bttom-p {
   margin-top: 16px;
   font-size: 16px;
   font-weight: 400;
@@ -384,42 +402,47 @@ cursor: pointer;
 /* footer section */
 
 
-#footer{
+#footer {
   height: 348px;
   width: auto;
   background-color: #001931;
 }
 
-.footer-info{
+.footer-info {
   padding: 120px 120px 80px 120px;
 }
-.footer-content{
+
+.footer-content {
   display: flex;
   justify-content: space-between;
   color: #FFFFFF;
 }
-.footer-logo{
+
+.footer-logo {
   margin-top: 16px;
-  gap:16px ;
+  gap: 16px;
 
 
 
 }
-.footer-logo img{
+
+.footer-logo img {
   border-radius: 50%;
 
 }
-.footer-bottom{
+
+.footer-bottom {
   height: 1.5px;
   gap: 80px;
   margin-top: 80px;
 
 }
-.footer-bottom-p p{
-margin-top: 16px;
-color: #FAFAFA;
-text-align: center;
-font-size: 16px;
-font-weight: 400;
+
+.footer-bottom-p p {
+  margin-top: 16px;
+  color: #FAFAFA;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 
 }
