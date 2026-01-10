@@ -1,17 +1,13 @@
-body {
-  font-family: "Open Sans", sans-serif;
-
-}
-
-
-
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+
 
 .nave-containev {
   display: flex;
@@ -48,9 +44,13 @@ body {
   border-radius: 8px;
   border: none;
   font-size: 16px;
+  cursor: pointer;
 
-
-
+}
+.nave-betn:hover{
+   background-color: #26553a;
+  color: #FFFFFF;
+  transition: all 0.5s ease-in-out;
 }
 
 .logo-navbar {
@@ -127,6 +127,17 @@ body {
 .button {
   display: flex;
   gap: 16px;
+  cursor: pointer;
+}
+.button-in:hover{
+  background-color: #26553a;
+  color: #FFFFFF;
+  transition: all 0.5s ease-in-out;
+}
+.button-im:hover{
+  background-color: #26553a;
+  color: #FFFFFF;
+  transition: all 0.5s ease-in-out;
 }
 
 .button-in {
@@ -139,6 +150,7 @@ body {
   color: rgba(255, 255, 255, 1);
   border-radius: 6px;
   border: none;
+  cursor: pointer;
 
 }
 
@@ -150,9 +162,12 @@ body {
   border-radius: 4px;
   background: transparent;
   color: rgba(255, 255, 255, 1);
+  cursor: pointer;
 
 
 }
+
+/* notes-section  */
 
 
 .notes-section {
@@ -193,9 +208,6 @@ body {
   height: 300px;
   background-color: #30B868;
 
-
-
-
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -204,9 +216,13 @@ body {
   border-radius: 8px;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
   background: rgba(255, 255, 255, 1);
+  cursor: pointer;
 
-
-
+}
+.cad-section:hover{
+  border-radius: 8px;
+  box-shadow: 1px 1px 20px 0px rgba(14, 2, 2, 0.34);
+  background: rgba(255, 255, 255, 1);
 }
 
 .cade-section {
@@ -265,6 +281,11 @@ body {
 
 
 
+#soltion-section img:hover{
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.146);
+border-radius: 20px;
+cursor: pointer;
+}
 #soltion-section {
   display: flex;
   margin-top: 120px;
@@ -346,6 +367,12 @@ body {
  color: #FFFFFF;
  font-size: 16px;
  font-weight: 600;
+ cursor: pointer;
+}
+.button-bttom:hover{
+  background-color: #26553a;
+  color: #FFFFFF;
+  transition: all 0.5s ease-in-out;
 }
 .button-bttom-p{
   margin-top: 16px;
